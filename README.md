@@ -3,12 +3,7 @@
 ## Unit 12—Tales from the Crypto
 
 
-
-<img width="759" alt="Screen Shot 2022-05-22 at 1 11 14 AM" src="https://user-images.githubusercontent.com/99091066/169679819-bedf0f98-5657-472d-af52-132f724c4cbb.png">
-
-
-
-
+<img width="729" alt="Screen Shot 2022-05-22 at 1 11 43 AM" src="https://user-images.githubusercontent.com/99091066/169679833-a2a542a8-3cce-4871-a2d1-25aec8204c04.png">
 
 
 
