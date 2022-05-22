@@ -8,10 +8,10 @@
 
 
 
-In this project we explore the public sentiment for two crpytocurrencies, Bitcoin and Ethereum. We will apply natural language processing to understand the sentiment in the latest news articles featuring these coins. We will also apply fundamental NLP techniques to better understand the other factors involved with the coin prices such as common words and phrases and organizations and entities mentioned in the articles.
+For this project, we explored the public sentiment for two crpytocurrencies, Bitcoin and Ethereum. We applied the concepts of natural language processing (NLP) to determine the sentiment in the latest news articles that feature these coins. We will also apply fundamental NLP techniques to better understand the other factors involved with the coin prices, such as common words and phrases, organizations and entities mentioned in the articles.
 
 
-Using the news API keys, we pull articles regarding the cryptocurrencies and calculate the positive, negative, and neutral sentiments regarding each coin.
+Using the news API keys, we extracted articles regarding the cryptocurrencies. The titles of these articles were processed using NLP, and then assigned a polarity score, which was then used to categorize the articles as having a `positive`, `negative`, and `neutral` sentiment.
 
 
 <img width="541" alt="Screen Shot 2022-05-22 at 12 42 45 AM" src="https://user-images.githubusercontent.com/99091066/169679048-cf756c64-31b4-4a0d-8b83-839f57f0223d.png">
@@ -83,7 +83,7 @@ We then define `corpus` and `corpeth` as the `tokenizer` column in each datafram
 
 Since the tokenizer column for each dataset was an object dtype, we converted the object to a string and concatenated each string using the `pandas.Series.str.cat` function. 
 
-Using the Counter and the most_common feature, we analyze the top 10 most common words in each article.
+Using the Counter and the most_common feature, we analyzed the top 10 most common words in each article.
 
 For Bitcoin, the top 10 words are as follows:
 
@@ -96,7 +96,7 @@ Cryptocurrency (10), Bitcoin (8), World (7), Biggest(5), Reuters (5), Last (5), 
  
 ### Word Clouds
 
-The tokenized words were then displayed on a word map , with the larger sizes being the words that were mentioned more tha others.
+The tokenized words were then displayed on a word cloud, with the larger sizes being the words that were mentioned more than others.
 
 Bitcoin:
 
@@ -133,7 +133,7 @@ Below is an example of the output for Bitcoin:
 
 <img width="709" alt="Screen Shot 2022-05-22 at 1 06 13 AM" src="https://user-images.githubusercontent.com/99091066/169679704-eda076b3-3ed5-4f38-8b81-5cdf18b0cb92.png">
 
-  > the function is able to identidy each word as either a person, organization, date, to name a few. For example, it recognied Kristy Kilburn as a person, Wednesday as a date, and North London as a location. However it does have its limitations as it recognized "Gucci Handbag" as a person.
+  > The function is able to identify each word as either a person, organization, date, etc. For example, it recognized Kristy Kilburn as a person, Wednesday as a date, and North London as a location. It did however have its limitations, as it recognized "Gucci Handbag" as a person.
 
 
 Lastly, each entity was counted. For Bitcoin, the entity counts are as follows: 
