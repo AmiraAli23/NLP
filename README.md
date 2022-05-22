@@ -1,5 +1,17 @@
 # NLP
-Unit 12—Tales from the Crypto
+
+## Unit 12—Tales from the Crypto
+
+
+
+<img width="759" alt="Screen Shot 2022-05-22 at 1 11 14 AM" src="https://user-images.githubusercontent.com/99091066/169679819-bedf0f98-5657-472d-af52-132f724c4cbb.png">
+
+
+
+
+
+
+
 
 In this project we explore the public sentiment for two crpytocurrencies, Bitcoin and Ethereum. We will apply natural language processing to understand the sentiment in the latest news articles featuring these coins. We will also apply fundamental NLP techniques to better understand the other factors involved with the coin prices such as common words and phrases and organizations and entities mentioned in the articles.
 
